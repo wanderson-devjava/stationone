@@ -1,0 +1,42 @@
+*****Projeto StationOne base para outros projetos
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+>
+>iniciando um repositorio de versionamento
+>
+>>> git init
+>>> git config --global user.name ".."
+>>> git config --global user.email ".."
+>>> git status
+>>> git add .
+>>> git status
+>>> git commit -m "Projeto criado com tela de Login/Reset-password/Dashboard-home"
+>>> git log
+>>> git remote add origem https://github.com/wanderson-devjava/stationone.git
+>>> git 
+>
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+
+*----------Adicionando o angular-material ao projeto---------*
+
+
+-> npm install --save @angular/material @angular/cdk @angular/animations
+
+-> ng add @angular/material
+
+
+------->Gerando o CoreModule
+
+-> ng g m core --dryRun *optional
+
+
+------->Gerando o SharedModule
+
+-> ng g m shared --dryRun *optional
+
+------->gerando modulos e components para o Login
+
+-> ng g m login --routing --spec=false
+-> ng g c login/components/login
