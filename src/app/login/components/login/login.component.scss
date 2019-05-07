@@ -1,0 +1,43 @@
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.content{
+  width: 100%;
+  max-width: 300px;
+  margin: 30px;
+  background: #FFF;
+  border-radius: 4px;
+  padding: 20px;
+
+  align-items: center;
+  text-align: center;
+}
+
+.titulo {
+  font-size: 28px;
+  color: #FFF;
+}
+
+.button-login {
+  width: 100%;
+  background: #0075BB;
+  color: #FFF;
+}
+
+.button-esqueci-senha {
+  width: 100%;
+  border-radius: 4px;
+  margin: 10px 0px 0px 0px;
+  background: #FFF;
+  color: black;
+}
+
+mat-form-field {
+  width: 100%;
+}
